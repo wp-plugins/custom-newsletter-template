@@ -10,7 +10,7 @@ Custom Template Generator for Newsletter.
 
 == Description ==
 
-<strong>If you need support to get this plugins installed or to have a customized version of the plugins please send us an email to this address <a href="mailto:contact@cybernetikz.com">contact@cybernetikz.com</a></strong>.
+<strong>If you need paid support to get this plugins installed or to have a customized version of the plugins please send us an email to this address <a href="mailto:contact@cybernetikz.com">contact@cybernetikz.com</a></strong>.
 
 You can create your own custom template for newsletter using this plugins. <strong>It is so easy and simple for any user to manage</strong>. By using this you can customize each and every content of the newsletter template from Wordpress admin panel. 
 
