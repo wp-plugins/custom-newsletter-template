@@ -3,8 +3,8 @@ Contributors: cybernetikz
 Donate link: 
 Tags: custom newsletter template,custom template,newsletter template,newsletter,template
 Requires at least: 2.9.2
-Tested up to: 3.9.1
-Stable tag: 1.0
+Tested up to: 4.2.4
+Stable tag: 1.1
 
 Custom Template Generator for Newsletter.
 
@@ -61,9 +61,8 @@ Please visit our site <a href="http://www.cybernetikz.com/">www.cybernetikz.com/
 
 == Changelog ==
 
+= 1.1 =
+* HTML fix and banner added in plugins settings page
+
 = 1.0 =
 * First version.
-
-== Thank You ==
-
-Thank you using this plugins!

@@ -3,11 +3,51 @@
 Plugin Name: Custom Newsletter Template
 Plugin URI: http://www.cybernetikz.com
 Description: Custom Template Generator for Newsletter
-Version: 1.0
+Version: 1.1
 Author: cybernetikz
 Author URI: http://www.cybernetikz.com
 License: GPL2
 */
+
+function cnt_admin_sidebar() {
+
+	$banners = array(
+		array(
+			'url' => 'http://www.cybernetikz.com/wordpress-magento-plugins/wordpress-plugins/?utm_source=custom-newsletter-template&utm_medium=banner&utm_campaign=wordpress-plugins',
+			'img' => 'banner-1.jpg',
+			'alt' => 'Banner 1',
+		),
+		array(
+			'url' => 'http://www.cybernetikz.com/portfolio/web-development/wordpress-website/?utm_source=custom-newsletter-template&utm_medium=banner&utm_campaign=wordpress-plugins',
+			'img' => 'banner-2.jpg',
+			'alt' => 'Banner 2',
+		),
+		array(
+			'url' => 'http://www.cybernetikz.com/seo-consultancy/?utm_source=custom-newsletter-template&utm_medium=banner&utm_campaign=wordpress-plugins',
+			'img' => 'banner-3.jpg',
+			'alt' => 'Banner 3',
+		),
+	);
+	//shuffle( $banners );
+	?>
+	<div class="cn_admin_banner">
+	<?php
+	$i = 0;
+	foreach ( $banners as $banner ) {
+		echo '<a target="_blank" href="' . esc_url( $banner['url'] ) . '"><img width="261" height="190" src="' . plugins_url( 'images/' . $banner['img'], __FILE__ ) . '" alt="' . esc_attr( $banner['alt'] ) . '"/></a><br/><br/>';
+		$i ++;
+	}
+	?>
+	</div>
+<?php
+}
+
+function cnt_admin_style() {
+	global $pluginsURI;
+	wp_register_style( 'cnt_admin_css', plugins_url( 'custom-newsletter-template/css/admin-style.css' ) , false, '1.0' );
+	wp_enqueue_style( 'cnt_admin_css' );
+}
+add_action( 'admin_enqueue_scripts', 'cnt_admin_style' );
 
 $pluginsURI = plugins_url('/custom-newsletter-template/');
 $msg = "";
@@ -259,6 +299,10 @@ function cnt_page_fn() {
 	<?php if($msg!='') echo '<div id="message" class="updated fade">'.$msg.'</div>'; ?>
 	<div class="icon32" id="icon-options-general"><br></div>
 	<h2>Custom Newsletter Template</h2>
+
+	<div class="content_wrapper">
+	<div class="left">
+    
 	<form method="post" action="" enctype="multipart/form-data">
 		<?php //settings_fields( 'cnt-settings-group' ); ?>
 		<table class="form-table">
@@ -407,6 +451,13 @@ function cnt_page_fn() {
 		</p>
 		<input type="hidden" name="update_content" value="yes" />
 	</form>
+    
+    </div><!--left-->
+    <div class="right">
+    <?php cnt_admin_sidebar(); ?>
+    </div><!--right-->
+    </div><!--content_wrapper-->
+    
 	</div>
 <?php
 }
