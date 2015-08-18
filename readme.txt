@@ -14,7 +14,7 @@ You can create your own custom template for newsletter using this plugins. <stro
 
 > <strong>PAID SUPPORT ($30/Hr, We ACCEPT PAYPAL )</strong>
 >
-> We assume most of the users would find it easy to install & use this plugin but those who needs support on any of the following:
+> We assume most of the users would find it easy to install & use this plugin but those who needs <strong><em>PAID SUPPORT</em></strong> on any of the following:
 >
 > <strong>a. Get the plugin installed </strong>
 >
@@ -66,3 +66,4 @@ Please visit our site <a href="http://www.cybernetikz.com/">www.cybernetikz.com/
 
 = 1.0 =
 * First version.
+
