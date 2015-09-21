@@ -10,7 +10,7 @@ Custom Template Generator for Newsletter.
 
 == Description ==
 
-You can create your own custom template for newsletter using this plugins. <strong>It is so easy and simple for any user to manage</strong>. By using this you can customize each and every content of the newsletter template from Wordpress admin panel. 
+You can create your own custom template for newsletter using this plugins. <strong>It is so easy and simple for any user to manage</strong>. By using this, you can customize each and every content of the newsletter template from Wordpress admin panel. 
 
 > <strong>PAID SUPPORT ($30/Hr, We ACCEPT PAYPAL )</strong>
 >
@@ -29,10 +29,10 @@ You can create your own custom template for newsletter using this plugins. <stro
 = Key Feature =
 
 * Create your own newsletter template for your domain.
-* HTML is based on table tag so it will generate same output for all mail service available like, yahoo, gmail, aol, msn, microsoft outlook etc.
+* HTML is based on table tag so it will generate same output for all mail services available, like Yahoo, Gmail, AOL, MSN, Microsoft Outlook etc.
 * Ability to control / customize each and every content of newsletter template like, background color, background image, font color, selective text, favicon, page title, header image, footer content, ads image/link, social image/link, post count etc.
-* Fully inline css to support all the email service available like, yahoo, gmail, aol, msn, microsoft outlook etc.
-* Used direct image url for image tag so will not be broken.
+* Fully inline css to support all the email services available, like Yahoo, Gmail, AOL, MSN, Microsoft Outlook etc.
+* Used direct image url for image tag, so will not be broken.
 
 Please visit our site <a href="http://www.cybernetikz.com/">www.cybernetikz.com/</a>
 
